@@ -1,10 +1,10 @@
 {
   "name": "magicstrings",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Math operations for strings",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -12,12 +12,17 @@
   },
   "keywords": [
     "stringadd",
-    "stringmath"
+    "stringmath",
+    "strings",
+    "addition"
   ],
-  "author": "gargsahil93",
+  "author": "sahgarg",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/gargsahil93/magicstrings/issues"
   },
-  "homepage": "https://github.com/gargsahil93/magicstrings#readme"
+  "homepage": "https://github.com/gargsahil93/magicstrings#readme",
+  "dependencies": {
+    "mocha": "^7.1.0"
+  }
 }
