@@ -1,5 +1,5 @@
-#Install
+## Install
 npm i magicstrings
 
-#Math operations for strings
+## Math operations for strings
 add
